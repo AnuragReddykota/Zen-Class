@@ -31,29 +31,11 @@ request.onload = function () {
   }, 0);
   console.log("Total Population of countries : " + totalPopulation);
   // - Print the country which use US Dollars as currency.
-  // var countryCurrency = country.map((element) => {
-  //   return element.currencies;
-  // });
-  // var currencyOfCountry = countryCurrency;
-  // for (var item in currencyOfCountry) {
-  //   if (currencyOfCountry[item][0].code === "USD") {
-  //     console.log(currencyOfCountry[item][0].code);
-  //   }
-  // }
   var usdCurrency = country.filter((element) => {
     return element.currencies[0].code === "USD";
   });
   var usdcountry = usdCurrency.map((element) => {
     console.log(element.name);
   });
-  // for(var i = 0;i<currencyOfCountry.length;i++)
-  // {
-  //   console.log(currencyOfCountry[0].code)
-  //    if(currencyOfCountry[i][0].code==="USD")
-  //    {
-  //      console.log(currencyOfCountry[]);
-  //    }
-  // }
-  //   var usdCurrency = currency;
-  //   console.log(usdCurrency);
+
 };
