@@ -1,0 +1,45 @@
+body{
+    background-color: #fff;
+}
+header{
+        text-align: center;
+        font-family:sans-serif;
+        background-color: #550e0e;
+        color: #fff;
+}
+table,tr.row,td.column{
+    border: 1px solid black;
+    background-color: rgb(255, 255, 224);
+    border-collapse: collapse;
+    width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.asterik{
+    color: #f00;
+}
+.span{
+    color: #f00;
+}
+u.header{
+    text-decoration-color: #f00;
+}
+.blue{
+    font-style: italic;
+    color: rgb(2, 77, 250);
+}
+td.column{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 1%; ;
+}
+td.column1{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 64%;
+
+}
+td.column2{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 35%;
+}
