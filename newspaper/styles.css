@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+    margin-top: 2%;
+}
+.container{
+    background-color:white;
+}
+p.lorem,p.end{
+    font-weight: 800;
+    margin-bottom: 1px;
+}
+hr{
+    margin: 1px;
+}
+.end{
+    text-align: end;
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-align: center;
+    font-size: 7em;
+}
+@media screen and (max-width:500px){
+    .heading{
+        color:green;
+        font-size:2.5em;
+    }
+}
+.center{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(143, 4, 4);
+}
+.today{
+    color: white;
+    background-color: rgb(143, 4, 4);
+    width: 20%;
+    padding-left: 10px;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+.images{
+    position: relative;
+    margin-bottom: -10px;
+}
+@media  screen and (max-width:390px) {
+ .today{
+     font-size: 10px;
+ }       
+}
