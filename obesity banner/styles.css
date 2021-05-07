@@ -1,0 +1,38 @@
+body{
+    color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.innerheader{
+    font-weight: 900;
+}
+h1,h2,h4,h3,h6{
+    margin: 10px;
+}
+.container{
+    margin-top: 10px;
+    border:2px solid black;
+}
+.headerone{
+    color: #ee6c4d;
+    margin: 0;
+    font-weight: 900;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.headertwo{
+    margin: -10px 0 0 0;
+}
+.image-container{
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.imagecentre{
+    text-align: center;
+}
+@media screen and (max-width:890px){
+    .headerone,.headertwo,.innerheader{
+        font-size: 1em;
+    }
+    
+}
