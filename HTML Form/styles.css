@@ -1,0 +1,16 @@
+body{
+    background-color: white;
+    margin: 10% 30%;
+}
+h3{
+    text-align: center;
+    color: #f72585;
+}
+form{
+    margin: 10% 20%;
+}
+table{
+    background-color: rgb(227, 231, 172);
+    margin: auto;
+    width: 60% !important;
+}
